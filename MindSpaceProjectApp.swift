@@ -13,6 +13,7 @@ struct MindSpaceProjectApp: App {
         WindowGroup {
             ContentView()
                 .modelContainer(for: [ToDoItem.self, EntryItem.self])
+                .environmentObject(EventStore(preview: true))
         }
     }
 }

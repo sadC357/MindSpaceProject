@@ -25,6 +25,11 @@
 		A32A75F12C5C36E000DC952A /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32A75F02C5C36E000DC952A /* Journal.swift */; };
 		A32A75F32C5C371000DC952A /* NewEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32A75F22C5C371000DC952A /* NewEntryView.swift */; };
 		A32A75F52C5C373C00DC952A /* EntryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32A75F42C5C373C00DC952A /* EntryItem.swift */; };
+		A35BF4772C5C4E78001965AB /* DaysEventsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35BF4762C5C4E78001965AB /* DaysEventsListView.swift */; };
+		A35BF4792C5C4ED2001965AB /* EventFormType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35BF4782C5C4ED2001965AB /* EventFormType.swift */; };
+		A35BF47B2C5C4EF3001965AB /* EventFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35BF47A2C5C4EF3001965AB /* EventFormView.swift */; };
+		A35BF47D2C5C4F1E001965AB /* EventFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35BF47C2C5C4F1E001965AB /* EventFormViewModel.swift */; };
+		A35BF47F2C5C4F43001965AB /* ListViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35BF47E2C5C4F43001965AB /* ListViewRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +52,11 @@
 		A32A75F02C5C36E000DC952A /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
 		A32A75F22C5C371000DC952A /* NewEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryView.swift; sourceTree = "<group>"; };
 		A32A75F42C5C373C00DC952A /* EntryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryItem.swift; sourceTree = "<group>"; };
+		A35BF4762C5C4E78001965AB /* DaysEventsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysEventsListView.swift; sourceTree = "<group>"; };
+		A35BF4782C5C4ED2001965AB /* EventFormType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFormType.swift; sourceTree = "<group>"; };
+		A35BF47A2C5C4EF3001965AB /* EventFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFormView.swift; sourceTree = "<group>"; };
+		A35BF47C2C5C4F1E001965AB /* EventFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFormViewModel.swift; sourceTree = "<group>"; };
+		A35BF47E2C5C4F43001965AB /* ListViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +155,10 @@
 				09F5A5AA2C5BDD550022FD59 /* Date.swift */,
 				09F5A5AB2C5BDD550022FD59 /* Event.swift */,
 				09F5A5AC2C5BDD550022FD59 /* EventStore.swift */,
+				A35BF4782C5C4ED2001965AB /* EventFormType.swift */,
+				A35BF47A2C5C4EF3001965AB /* EventFormView.swift */,
+				A35BF47C2C5C4F1E001965AB /* EventFormViewModel.swift */,
+				A35BF47E2C5C4F43001965AB /* ListViewRow.swift */,
 			);
 			path = "Calendar Resources";
 			sourceTree = "<group>";
@@ -155,6 +169,7 @@
 				09F5A5AD2C5BDD550022FD59 /* Calendar Resources */,
 				09F5A5AE2C5BDD550022FD59 /* CalendarScreen.swift */,
 				09F5A5AF2C5BDD550022FD59 /* CalendarView.swift */,
+				A35BF4762C5C4E78001965AB /* DaysEventsListView.swift */,
 			);
 			name = Calendar;
 			path = ../../FinalProject/FinalProject/Calendar;
@@ -239,11 +254,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A35BF4772C5C4E78001965AB /* DaysEventsListView.swift in Sources */,
+				A35BF4792C5C4ED2001965AB /* EventFormType.swift in Sources */,
 				A32A75F32C5C371000DC952A /* NewEntryView.swift in Sources */,
 				A32A75ED2C5C366300DC952A /* NewToDoView.swift in Sources */,
 				09F5A58C2C5BDC990022FD59 /* ContentView.swift in Sources */,
 				A32A75EF2C5C369300DC952A /* ToDoItem.swift in Sources */,
 				09F5A58A2C5BDC990022FD59 /* MindSpaceProjectApp.swift in Sources */,
+				A35BF47D2C5C4F1E001965AB /* EventFormViewModel.swift in Sources */,
 				09F5A5B22C5BDD550022FD59 /* Event.swift in Sources */,
 				09F5A5B52C5BDD550022FD59 /* CalendarView.swift in Sources */,
 				09F5A5B42C5BDD550022FD59 /* CalendarScreen.swift in Sources */,
@@ -252,8 +270,10 @@
 				A32A75F12C5C36E000DC952A /* Journal.swift in Sources */,
 				A32A75F52C5C373C00DC952A /* EntryItem.swift in Sources */,
 				09F5A5A92C5BDD3D0022FD59 /* HomeScreen.swift in Sources */,
+				A35BF47B2C5C4EF3001965AB /* EventFormView.swift in Sources */,
 				A32A75EB2C5C35C900DC952A /* Tasks.swift in Sources */,
 				09F5A5B12C5BDD550022FD59 /* Date.swift in Sources */,
+				A35BF47F2C5C4F43001965AB /* ListViewRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +410,7 @@
 				DEVELOPMENT_TEAM = NP9U8U4U2G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MindSpaceProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -419,6 +440,7 @@
 				DEVELOPMENT_TEAM = NP9U8U4U2G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MindSpaceProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
