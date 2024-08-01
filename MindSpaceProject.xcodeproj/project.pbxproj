@@ -12,13 +12,6 @@
 		09F5A58C2C5BDC990022FD59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A58B2C5BDC990022FD59 /* ContentView.swift */; };
 		09F5A58E2C5BDC9D0022FD59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F5A58D2C5BDC9D0022FD59 /* Assets.xcassets */; };
 		09F5A5912C5BDC9D0022FD59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F5A5902C5BDC9D0022FD59 /* Preview Assets.xcassets */; };
-		09F5A5A22C5BDD3D0022FD59 /* EntryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A5972C5BDD3D0022FD59 /* EntryItem.swift */; };
-		09F5A5A32C5BDD3D0022FD59 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A5982C5BDD3D0022FD59 /* Journal.swift */; };
-		09F5A5A42C5BDD3D0022FD59 /* NewEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A5992C5BDD3D0022FD59 /* NewEntryView.swift */; };
-		09F5A5A52C5BDD3D0022FD59 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A59A2C5BDD3D0022FD59 /* Notes.swift */; };
-		09F5A5A62C5BDD3D0022FD59 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A59C2C5BDD3D0022FD59 /* NewToDoView.swift */; };
-		09F5A5A72C5BDD3D0022FD59 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A59D2C5BDD3D0022FD59 /* Tasks.swift */; };
-		09F5A5A82C5BDD3D0022FD59 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A59E2C5BDD3D0022FD59 /* ToDoItem.swift */; };
 		09F5A5A92C5BDD3D0022FD59 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A5A02C5BDD3D0022FD59 /* HomeScreen.swift */; };
 		09F5A5B12C5BDD550022FD59 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A5AA2C5BDD550022FD59 /* Date.swift */; };
 		09F5A5B22C5BDD550022FD59 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A5AB2C5BDD550022FD59 /* Event.swift */; };
@@ -26,6 +19,12 @@
 		09F5A5B42C5BDD550022FD59 /* CalendarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A5AE2C5BDD550022FD59 /* CalendarScreen.swift */; };
 		09F5A5B52C5BDD550022FD59 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A5AF2C5BDD550022FD59 /* CalendarView.swift */; };
 		09F5A5B82C5BDD840022FD59 /* MentalHealthScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A5B72C5BDD840022FD59 /* MentalHealthScreen.swift */; };
+		A32A75EB2C5C35C900DC952A /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32A75EA2C5C35C900DC952A /* Tasks.swift */; };
+		A32A75ED2C5C366300DC952A /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32A75EC2C5C366300DC952A /* NewToDoView.swift */; };
+		A32A75EF2C5C369300DC952A /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32A75EE2C5C369300DC952A /* ToDoItem.swift */; };
+		A32A75F12C5C36E000DC952A /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32A75F02C5C36E000DC952A /* Journal.swift */; };
+		A32A75F32C5C371000DC952A /* NewEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32A75F22C5C371000DC952A /* NewEntryView.swift */; };
+		A32A75F52C5C373C00DC952A /* EntryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32A75F42C5C373C00DC952A /* EntryItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,13 +34,6 @@
 		09F5A58B2C5BDC990022FD59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		09F5A58D2C5BDC9D0022FD59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09F5A5902C5BDC9D0022FD59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		09F5A5972C5BDD3D0022FD59 /* EntryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryItem.swift; sourceTree = "<group>"; };
-		09F5A5982C5BDD3D0022FD59 /* Journal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
-		09F5A5992C5BDD3D0022FD59 /* NewEntryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewEntryView.swift; sourceTree = "<group>"; };
-		09F5A59A2C5BDD3D0022FD59 /* Notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
-		09F5A59C2C5BDD3D0022FD59 /* NewToDoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
-		09F5A59D2C5BDD3D0022FD59 /* Tasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
-		09F5A59E2C5BDD3D0022FD59 /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		09F5A5A02C5BDD3D0022FD59 /* HomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		09F5A5AA2C5BDD550022FD59 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		09F5A5AB2C5BDD550022FD59 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
@@ -49,6 +41,12 @@
 		09F5A5AE2C5BDD550022FD59 /* CalendarScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarScreen.swift; sourceTree = "<group>"; };
 		09F5A5AF2C5BDD550022FD59 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		09F5A5B72C5BDD840022FD59 /* MentalHealthScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthScreen.swift; sourceTree = "<group>"; };
+		A32A75EA2C5C35C900DC952A /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		A32A75EC2C5C366300DC952A /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		A32A75EE2C5C369300DC952A /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		A32A75F02C5C36E000DC952A /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		A32A75F22C5C371000DC952A /* NewEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryView.swift; sourceTree = "<group>"; };
+		A32A75F42C5C373C00DC952A /* EntryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +72,8 @@
 		09F5A57D2C5BDC990022FD59 = {
 			isa = PBXGroup;
 			children = (
+				09F5A5892C5BDC990022FD59 /* MindSpaceProjectApp.swift */,
+				09F5A58B2C5BDC990022FD59 /* ContentView.swift */,
 				09F5A5882C5BDC990022FD59 /* MindSpaceProject */,
 				09F5A5872C5BDC990022FD59 /* Products */,
 			);
@@ -91,11 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				0957A7C82C5BE17A002DA1E5 /* Fonts */,
-				09F5A5B62C5BDD630022FD59 /* Mental Health */,
-				09F5A5B02C5BDD550022FD59 /* Calendar */,
 				09F5A5A12C5BDD3D0022FD59 /* Home Screen */,
-				09F5A5892C5BDC990022FD59 /* MindSpaceProjectApp.swift */,
-				09F5A58B2C5BDC990022FD59 /* ContentView.swift */,
+				09F5A5B02C5BDD550022FD59 /* Calendar */,
+				09F5A5B62C5BDD630022FD59 /* Mental Health */,
 				09F5A58D2C5BDC9D0022FD59 /* Assets.xcassets */,
 				09F5A58F2C5BDC9D0022FD59 /* Preview Content */,
 			);
@@ -113,10 +111,9 @@
 		09F5A59B2C5BDD3D0022FD59 /* Journal */ = {
 			isa = PBXGroup;
 			children = (
-				09F5A5972C5BDD3D0022FD59 /* EntryItem.swift */,
-				09F5A5982C5BDD3D0022FD59 /* Journal.swift */,
-				09F5A5992C5BDD3D0022FD59 /* NewEntryView.swift */,
-				09F5A59A2C5BDD3D0022FD59 /* Notes.swift */,
+				A32A75F02C5C36E000DC952A /* Journal.swift */,
+				A32A75F22C5C371000DC952A /* NewEntryView.swift */,
+				A32A75F42C5C373C00DC952A /* EntryItem.swift */,
 			);
 			path = Journal;
 			sourceTree = "<group>";
@@ -124,9 +121,9 @@
 		09F5A59F2C5BDD3D0022FD59 /* Tasks */ = {
 			isa = PBXGroup;
 			children = (
-				09F5A59C2C5BDD3D0022FD59 /* NewToDoView.swift */,
-				09F5A59D2C5BDD3D0022FD59 /* Tasks.swift */,
-				09F5A59E2C5BDD3D0022FD59 /* ToDoItem.swift */,
+				A32A75EA2C5C35C900DC952A /* Tasks.swift */,
+				A32A75EC2C5C366300DC952A /* NewToDoView.swift */,
+				A32A75EE2C5C369300DC952A /* ToDoItem.swift */,
 			);
 			path = Tasks;
 			sourceTree = "<group>";
@@ -134,9 +131,9 @@
 		09F5A5A12C5BDD3D0022FD59 /* Home Screen */ = {
 			isa = PBXGroup;
 			children = (
-				09F5A59B2C5BDD3D0022FD59 /* Journal */,
-				09F5A59F2C5BDD3D0022FD59 /* Tasks */,
 				09F5A5A02C5BDD3D0022FD59 /* HomeScreen.swift */,
+				09F5A59F2C5BDD3D0022FD59 /* Tasks */,
+				09F5A59B2C5BDD3D0022FD59 /* Journal */,
 			);
 			name = "Home Screen";
 			path = "../../FinalProject/FinalProject/Home Screen";
@@ -242,22 +239,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A32A75F32C5C371000DC952A /* NewEntryView.swift in Sources */,
+				A32A75ED2C5C366300DC952A /* NewToDoView.swift in Sources */,
 				09F5A58C2C5BDC990022FD59 /* ContentView.swift in Sources */,
+				A32A75EF2C5C369300DC952A /* ToDoItem.swift in Sources */,
 				09F5A58A2C5BDC990022FD59 /* MindSpaceProjectApp.swift in Sources */,
-				09F5A5A82C5BDD3D0022FD59 /* ToDoItem.swift in Sources */,
-				09F5A5A62C5BDD3D0022FD59 /* NewToDoView.swift in Sources */,
 				09F5A5B22C5BDD550022FD59 /* Event.swift in Sources */,
 				09F5A5B52C5BDD550022FD59 /* CalendarView.swift in Sources */,
 				09F5A5B42C5BDD550022FD59 /* CalendarScreen.swift in Sources */,
 				09F5A5B32C5BDD550022FD59 /* EventStore.swift in Sources */,
-				09F5A5A22C5BDD3D0022FD59 /* EntryItem.swift in Sources */,
-				09F5A5A72C5BDD3D0022FD59 /* Tasks.swift in Sources */,
 				09F5A5B82C5BDD840022FD59 /* MentalHealthScreen.swift in Sources */,
+				A32A75F12C5C36E000DC952A /* Journal.swift in Sources */,
+				A32A75F52C5C373C00DC952A /* EntryItem.swift in Sources */,
 				09F5A5A92C5BDD3D0022FD59 /* HomeScreen.swift in Sources */,
-				09F5A5A32C5BDD3D0022FD59 /* Journal.swift in Sources */,
+				A32A75EB2C5C35C900DC952A /* Tasks.swift in Sources */,
 				09F5A5B12C5BDD550022FD59 /* Date.swift in Sources */,
-				09F5A5A42C5BDD3D0022FD59 /* NewEntryView.swift in Sources */,
-				09F5A5A52C5BDD3D0022FD59 /* Notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +387,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MindSpaceProject/Preview Content\"";
-				DEVELOPMENT_TEAM = 823VH9D9YC;
+				DEVELOPMENT_TEAM = NP9U8U4U2G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -404,7 +400,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kwk.MindSpaceProject;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.MindSpaceFinalProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -420,7 +416,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MindSpaceProject/Preview Content\"";
-				DEVELOPMENT_TEAM = 823VH9D9YC;
+				DEVELOPMENT_TEAM = NP9U8U4U2G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -433,7 +429,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kwk.MindSpaceProject;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.MindSpaceFinalProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
