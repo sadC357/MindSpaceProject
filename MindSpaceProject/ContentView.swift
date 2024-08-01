@@ -13,7 +13,7 @@ struct ContentView: View {
             TabView {
                 HomeScreen().tabItem {
                     Image(systemName: "house.fill")
-                    Text("Home")
+                    Text("Home Screen")
                 }
                 
                 CalendarScreen().tabItem {
