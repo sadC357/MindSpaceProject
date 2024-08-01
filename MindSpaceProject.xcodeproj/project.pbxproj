@@ -7,18 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0957A7C92C5BE17A002DA1E5 /* Klasik Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0957A7C72C5BE17A002DA1E5 /* Klasik Regular.otf */; };
 		09F5A58A2C5BDC990022FD59 /* MindSpaceProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A5892C5BDC990022FD59 /* MindSpaceProjectApp.swift */; };
 		09F5A58C2C5BDC990022FD59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A58B2C5BDC990022FD59 /* ContentView.swift */; };
 		09F5A58E2C5BDC9D0022FD59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F5A58D2C5BDC9D0022FD59 /* Assets.xcassets */; };
 		09F5A5912C5BDC9D0022FD59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F5A5902C5BDC9D0022FD59 /* Preview Assets.xcassets */; };
+		09F5A5A22C5BDD3D0022FD59 /* EntryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A5972C5BDD3D0022FD59 /* EntryItem.swift */; };
+		09F5A5A32C5BDD3D0022FD59 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A5982C5BDD3D0022FD59 /* Journal.swift */; };
+		09F5A5A42C5BDD3D0022FD59 /* NewEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A5992C5BDD3D0022FD59 /* NewEntryView.swift */; };
+		09F5A5A52C5BDD3D0022FD59 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A59A2C5BDD3D0022FD59 /* Notes.swift */; };
+		09F5A5A62C5BDD3D0022FD59 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A59C2C5BDD3D0022FD59 /* NewToDoView.swift */; };
+		09F5A5A72C5BDD3D0022FD59 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A59D2C5BDD3D0022FD59 /* Tasks.swift */; };
+		09F5A5A82C5BDD3D0022FD59 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A59E2C5BDD3D0022FD59 /* ToDoItem.swift */; };
+		09F5A5A92C5BDD3D0022FD59 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A5A02C5BDD3D0022FD59 /* HomeScreen.swift */; };
+		09F5A5B12C5BDD550022FD59 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A5AA2C5BDD550022FD59 /* Date.swift */; };
+		09F5A5B22C5BDD550022FD59 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A5AB2C5BDD550022FD59 /* Event.swift */; };
+		09F5A5B32C5BDD550022FD59 /* EventStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A5AC2C5BDD550022FD59 /* EventStore.swift */; };
+		09F5A5B42C5BDD550022FD59 /* CalendarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A5AE2C5BDD550022FD59 /* CalendarScreen.swift */; };
+		09F5A5B52C5BDD550022FD59 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A5AF2C5BDD550022FD59 /* CalendarView.swift */; };
+		09F5A5B82C5BDD840022FD59 /* MentalHealthScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5A5B72C5BDD840022FD59 /* MentalHealthScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0957A7C72C5BE17A002DA1E5 /* Klasik Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Klasik Regular.otf"; sourceTree = "<group>"; };
 		09F5A5862C5BDC990022FD59 /* MindSpaceProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindSpaceProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F5A5892C5BDC990022FD59 /* MindSpaceProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindSpaceProjectApp.swift; sourceTree = "<group>"; };
 		09F5A58B2C5BDC990022FD59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		09F5A58D2C5BDC9D0022FD59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09F5A5902C5BDC9D0022FD59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09F5A5972C5BDD3D0022FD59 /* EntryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryItem.swift; sourceTree = "<group>"; };
+		09F5A5982C5BDD3D0022FD59 /* Journal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		09F5A5992C5BDD3D0022FD59 /* NewEntryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewEntryView.swift; sourceTree = "<group>"; };
+		09F5A59A2C5BDD3D0022FD59 /* Notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		09F5A59C2C5BDD3D0022FD59 /* NewToDoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		09F5A59D2C5BDD3D0022FD59 /* Tasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		09F5A59E2C5BDD3D0022FD59 /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		09F5A5A02C5BDD3D0022FD59 /* HomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		09F5A5AA2C5BDD550022FD59 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		09F5A5AB2C5BDD550022FD59 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		09F5A5AC2C5BDD550022FD59 /* EventStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventStore.swift; sourceTree = "<group>"; };
+		09F5A5AE2C5BDD550022FD59 /* CalendarScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarScreen.swift; sourceTree = "<group>"; };
+		09F5A5AF2C5BDD550022FD59 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		09F5A5B72C5BDD840022FD59 /* MentalHealthScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +62,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0957A7C82C5BE17A002DA1E5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0957A7C72C5BE17A002DA1E5 /* Klasik Regular.otf */,
+			);
+			name = Fonts;
+			path = ../../FinalProject/FinalProject/Fonts;
+			sourceTree = "<group>";
+		};
 		09F5A57D2C5BDC990022FD59 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +90,10 @@
 		09F5A5882C5BDC990022FD59 /* MindSpaceProject */ = {
 			isa = PBXGroup;
 			children = (
+				0957A7C82C5BE17A002DA1E5 /* Fonts */,
+				09F5A5B62C5BDD630022FD59 /* Mental Health */,
+				09F5A5B02C5BDD550022FD59 /* Calendar */,
+				09F5A5A12C5BDD3D0022FD59 /* Home Screen */,
 				09F5A5892C5BDC990022FD59 /* MindSpaceProjectApp.swift */,
 				09F5A58B2C5BDC990022FD59 /* ContentView.swift */,
 				09F5A58D2C5BDC9D0022FD59 /* Assets.xcassets */,
@@ -65,6 +108,67 @@
 				09F5A5902C5BDC9D0022FD59 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09F5A59B2C5BDD3D0022FD59 /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				09F5A5972C5BDD3D0022FD59 /* EntryItem.swift */,
+				09F5A5982C5BDD3D0022FD59 /* Journal.swift */,
+				09F5A5992C5BDD3D0022FD59 /* NewEntryView.swift */,
+				09F5A59A2C5BDD3D0022FD59 /* Notes.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		09F5A59F2C5BDD3D0022FD59 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				09F5A59C2C5BDD3D0022FD59 /* NewToDoView.swift */,
+				09F5A59D2C5BDD3D0022FD59 /* Tasks.swift */,
+				09F5A59E2C5BDD3D0022FD59 /* ToDoItem.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		09F5A5A12C5BDD3D0022FD59 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				09F5A59B2C5BDD3D0022FD59 /* Journal */,
+				09F5A59F2C5BDD3D0022FD59 /* Tasks */,
+				09F5A5A02C5BDD3D0022FD59 /* HomeScreen.swift */,
+			);
+			name = "Home Screen";
+			path = "../../FinalProject/FinalProject/Home Screen";
+			sourceTree = "<group>";
+		};
+		09F5A5AD2C5BDD550022FD59 /* Calendar Resources */ = {
+			isa = PBXGroup;
+			children = (
+				09F5A5AA2C5BDD550022FD59 /* Date.swift */,
+				09F5A5AB2C5BDD550022FD59 /* Event.swift */,
+				09F5A5AC2C5BDD550022FD59 /* EventStore.swift */,
+			);
+			path = "Calendar Resources";
+			sourceTree = "<group>";
+		};
+		09F5A5B02C5BDD550022FD59 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				09F5A5AD2C5BDD550022FD59 /* Calendar Resources */,
+				09F5A5AE2C5BDD550022FD59 /* CalendarScreen.swift */,
+				09F5A5AF2C5BDD550022FD59 /* CalendarView.swift */,
+			);
+			name = Calendar;
+			path = ../../FinalProject/FinalProject/Calendar;
+			sourceTree = "<group>";
+		};
+		09F5A5B62C5BDD630022FD59 /* Mental Health */ = {
+			isa = PBXGroup;
+			children = (
+				09F5A5B72C5BDD840022FD59 /* MentalHealthScreen.swift */,
+			);
+			path = "Mental Health";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09F5A5912C5BDC9D0022FD59 /* Preview Assets.xcassets in Resources */,
+				0957A7C92C5BE17A002DA1E5 /* Klasik Regular.otf in Resources */,
 				09F5A58E2C5BDC9D0022FD59 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +244,20 @@
 			files = (
 				09F5A58C2C5BDC990022FD59 /* ContentView.swift in Sources */,
 				09F5A58A2C5BDC990022FD59 /* MindSpaceProjectApp.swift in Sources */,
+				09F5A5A82C5BDD3D0022FD59 /* ToDoItem.swift in Sources */,
+				09F5A5A62C5BDD3D0022FD59 /* NewToDoView.swift in Sources */,
+				09F5A5B22C5BDD550022FD59 /* Event.swift in Sources */,
+				09F5A5B52C5BDD550022FD59 /* CalendarView.swift in Sources */,
+				09F5A5B42C5BDD550022FD59 /* CalendarScreen.swift in Sources */,
+				09F5A5B32C5BDD550022FD59 /* EventStore.swift in Sources */,
+				09F5A5A22C5BDD3D0022FD59 /* EntryItem.swift in Sources */,
+				09F5A5A72C5BDD3D0022FD59 /* Tasks.swift in Sources */,
+				09F5A5B82C5BDD840022FD59 /* MentalHealthScreen.swift in Sources */,
+				09F5A5A92C5BDD3D0022FD59 /* HomeScreen.swift in Sources */,
+				09F5A5A32C5BDD3D0022FD59 /* Journal.swift in Sources */,
+				09F5A5B12C5BDD550022FD59 /* Date.swift in Sources */,
+				09F5A5A42C5BDD3D0022FD59 /* NewEntryView.swift in Sources */,
+				09F5A5A52C5BDD3D0022FD59 /* Notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

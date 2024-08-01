@@ -9,16 +9,30 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            TabView {
+                HomeScreen().tabItem {
+                    Image(systemName: "house.fill")
+                    Text("Home")
+                }
+                
+                CalendarScreen().tabItem {
+                    Image(systemName: "calendar")
+                    Text("Calendar")
+                }
+                
+                MentalHealthScreen().tabItem {
+                    Image(systemName: "heart.fill")
+                    Text("Mental Health")
+                }
+            }
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentScreen_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+            .environmentObject(EventStore(preview: true))
+    }
 }
